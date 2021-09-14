@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    position: relative;
+    padding: 2;
+    display: flexbox;
+    justify-content: space-between;
+    align-items:center;
+    height: 100vh;
+}
+.header{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+.header-content{
+    max-width: 49rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+
+}
+.space{
+ position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.space video{
+    min-width: 100%;
+    min-height: 100%;
+}
+.header-overlay{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 1;
+}
+.header-content{
+    z-index: 2;
+
+}
+.header-content h1{
+    display: block;
+    font-size: 70px;
+    margin: 1px;
+    font-family: consola;
+}
+.header-content p{
+    font-size: 26px;
+    display:block;
+    padding: 0em;
+
+}
+.neon{
+    position: center;
+    display:inline-block;
+    padding: 15px 30px;
+    color:white;
+    letter-spacing: 5px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.neon:hover{
+    background: rgb(145, 103, 173);
+    box-shadow: 0 0 10px rgb(252, 250, 255),0 0 40px rgb(252, 250, 255),0 0 80px rgb(252, 250, 255);
+    
+}

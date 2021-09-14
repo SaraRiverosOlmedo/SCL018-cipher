@@ -1,0 +1,106 @@
+*{
+    margin: 0em;
+    padding:0;
+}
+.header{
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+
+}
+.header-content{
+    margin: auto;
+    text-align: center;
+
+}
+.space{
+ position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.space video{
+    min-width: 100%;
+    min-height: 100%;
+}
+.header-overlay{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 1;
+}
+.header-content{
+    z-index: 2;
+}
+.header-content h1{
+    font-size: 70px;
+    display: block;
+    font-family: consola;
+    float: inline-start;
+    padding: 1em;
+}
+.header-content h2 {
+    font-size: 30px;
+    display:block;
+    justify-content: space-between;
+    padding: 1em;
+}
+.header-content p{
+    display:block;
+    justify-content: space-between;
+    padding: 0em 0em 2em 0em;
+}
+.header-content h4{
+    font-size: 30px;
+    display:inline-block;
+    justify-content: space-between;
+    padding: 0em 3em 0em 4em;
+}
+.header-content h6,p{
+    font-size: 30px;
+    display:block;
+    color: white;
+    justify-content: space-between;
+    padding: 1em;
+}
+.botonc{
+    position: center;
+    display:inline-block;
+    padding: 5px 10px;
+    color:white;
+    background: rgb(145, 103, 173);
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:consola ;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.botonc:hover{
+    background: rgb(145, 103, 173);
+    box-shadow: 0 0 10px rgb(252, 250, 255),0 0 40px rgb(252, 250, 255),0 0 80px rgb(252, 250, 255);
+    
+}
+.botond{
+    position: center;
+    display:inline-block;
+    padding: 5px 10px;
+    color:white;
+    background: rgb(145, 103, 173);
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:consola ;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.botond:hover{
+    background: rgb(145, 103, 173);
+    box-shadow: 0 0 10px rgb(252, 250, 255),0 0 40px rgb(252, 250, 255),0 0 80px rgb(252, 250, 255);
+    
+}
