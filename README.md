@@ -1,18 +1,42 @@
-# Cifrado César
+# PROYECTO SCAPE KEYS (CIPHER)
 
-## Índice
+Este proyecto consiste en el cifrado Cesar, el cual tenia como finalidad enviar un mensaje cifrado. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
+Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Checklist](#9-checklist)
+![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
+ 
+ ## Índice
+ 
+* [1. Objetivo](#1-Objetivo)
+* [2. Usuario Objetivo](#2-Usuario-Objetivo)
+* [3. Planificación del Proyecto](#3-Planificación-del-Proyecto)
+* [4. Prototipo](#4-Prototipo)
+* [5. HTML](#5-HTML)
+* [6. CSS](#6-CSS)
+* [7. JavaScript](#7-JavaScript)
+* [8. Test](#8-Test) 
+* [9. Conclusiones](#9-Conclusiones)
+  
+  ***
 
-***
+ ## 1. Objetivo
+
+ El objetivo de este proyecto es proporcionarle al usuario la facilidad de cifrar sus claves, siendo el mismo usuario quien escoja cuanto es la cantida de desplazamiento, que desea en su contraseña, ademas de esto, la pagina también otorga la posibilidad de decifrar la clave que ya ha sido cifrada, permitiendo al usuario tener completo manejo de la modificiación que desee realizar. El objetivo printicpal de este proyecto es hacer mas segura las claves de acceso para quienes lo desean.
+
+ ## 2. Usuario Objetivo
+
+ En este caso el usuario destinado, es cualquiera que posea contraseñas o claves que desee encriptar, no hay un limite en la edad, ya que como consumidores de paginas, plataformas y sitios web, resulta bastante beneficioso, poder optar a este tipo de facilidades con respecto a seguridad y privacidad se trate.
+
+ ## 3. Planificación del Proyecto
+
+ La Planificación que realicé, fue escoger de que se trataria mi proyecto en este caso, decidí hacerlo de cifrado de contraseñas, ya que bajo mi experiencia y la de otro sujetos a los cuales consulte, llegué a la conclusíon que otorgale al usuario un lugar donde poder modificar sus claves, era bastante útil, ya que hoy en dia, la vulnerabilidad de claves se ha visto bastante afectada, ademas que cada dia se utilizan mas y mas plataformas con dicha información de acceso.
+ Ya teniendo la eleccion hecha de lo que trataria mi proyecto, realicé una pauta, con los pasos a seguir, para desarrollar todo, la herramienta que escogí para esto fue Trello. (más abajo adjunto la planificacíon realizada ahí).
+
+ ## 4. 
+
+
+
+
 
 ## 1. Preámbulo
 

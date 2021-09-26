@@ -10,7 +10,6 @@ InputClave.value = InputClave.value.toUpperCase();
 document.getElementById("encode").addEventListener ("click",function(){
 let clave= InputClave.value;
 let offset= document.getElementById("offset").value;
-console.log(cipher.encode(offset,clave));
 document.getElementById("result").value= cipher.encode(offset,clave); 
 },true);
 

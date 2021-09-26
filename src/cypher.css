@@ -72,11 +72,17 @@ body {
   display: block;
   padding: 0em;
 }
+.btningresar{
+  position: center;
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
 .neon {
   text-align: center;
   display: inline-block;
   margin-right: 45px;
-  margin-left: 550px;
+  margin-left: 45px;
   margin-top: 30px;
   padding: 15px 30px;
   color: white;
