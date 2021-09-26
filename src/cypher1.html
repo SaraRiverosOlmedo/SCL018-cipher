@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cypher1</title>
+    <link href="cyper1.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="header content">
+      <main class="space" style="z-index: -2">
+        <video playsinline autoplay muted loop id="space-video">
+          <source src="space.mp4" type="video/mp4" />
+        </video>
+      </main>
+      <div class="contenido-content">
+        <header>
+          <h1>Ingresa tu Key</h1>
+        </header>
+        <strong><h2>Key</h2></strong>
+        <p><input type="text" class="inputc" size="70" id="clave" /></p>
+        <strong><h3>Número de Modificación</h3></strong>
+        <p><input type="number" size="10" id="offset" /></p>
+        <div class="btn">
+          <h4>
+            <button type="button" class="botonc" id="encode">Codificar</button>
+          </h4>
+          <h4>
+            <button type="button" class="botond" id="decode">
+              Decodificar
+            </button>
+          </h4>
+        </div>
+        <div class="result">
+          <strong><h6>Resultados</h6></strong>
+          <p><input type="text" size="70" id="result" /></p>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

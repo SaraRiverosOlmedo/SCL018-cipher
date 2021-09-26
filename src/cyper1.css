@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    position: relative;
+    padding: 2;
+    display: flexbox;
+    justify-content: space-between;
+    align-items:center;
+    height: 100vh;
+}
+.div{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.header-content{
+    max-width: 49rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+
+}
+.space{
+ position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+}
+#space-video{
+    object-fit: cover;
+    min-width: 100vw;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+    
+}
+.content-overlay{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 1;
+}
+.contenido-content h1{
+    text-align: center;
+    display: block;
+    font-size: 70px;
+    margin: 25px 1px 2px 1px;
+    padding: 5px 2px 2px 2px;
+    font-family: consola;
+}
+.contenido-content p{
+    text-align: center;
+    font-size: 26px;
+    display:block;
+    padding: 0em;
+
+}
+.contenido-content h2 {
+    text-align: center;
+    text-shadow: 0 0 10px rgb(252, 250, 255),0 0 40px rgb(252, 250, 255),0 0 80px rgb(252, 250, 255);;
+    font-size: 35px;
+    display:block;
+    justify-content: space-between;
+    padding: 0em;
+}
+.header-content p{
+    text-align: center;
+    display:block;
+    justify-content: space-between;
+    padding: 0em;
+}
+.contenido-content h3 {
+    text-align: center;
+    text-shadow: 0 0 10px rgb(252, 250, 255),0 0 40px rgb(252, 250, 255),0 0 80px rgb(252, 250, 255);;
+    font-size: 35px;
+    display:block;
+    justify-content: space-between;
+    padding: 0em;
+}
+.contenido-content h4{
+    text-align: center;
+    font-size: 35px;
+    display:inline-block;
+    justify-content: space-between;
+    padding: 0em 4em 0em 4em;
+}
+.result h6{
+    text-align: center;
+    text-shadow: 0 0 10px rgb(44, 43, 46),0 0 40px rgb(44, 43, 46),0 0 80px  rgb(44, 43, 46);;
+    font-size: 35px;
+    display:block;
+    color: white;
+    justify-content: space-between;
+    padding: 0em;
+    margin: 0em;
+}
+.btn{
+    position: center;
+    display: block;
+    text-align: center;
+    justify-content: space-around;
+}
+.botonc{
+    position: center;
+    display:inline-block;
+    padding: 5px 15px;
+    color:white;
+    background: rgb(145, 103, 173);
+    letter-spacing: 3px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:consola ;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.botonc:hover{
+    background: rgb(145, 103, 173);
+    box-shadow: 0 0 10px rgb(252, 250, 255),0 0 40px rgb(252, 250, 255),0 0 80px rgb(252, 250, 255);
+    
+}
+.botond{
+    position: center;
+    display:inline-block;
+    padding: 5px 10px;
+    color:white;
+    background: rgb(145, 103, 173);
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:consola ;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.botond:hover{
+    background: rgb(145, 103, 173);
+    box-shadow: 0 0 10px rgb(252, 250, 255),0 0 40px rgb(252, 250, 255),0 0 80px rgb(252, 250, 255);
+    
+}
